@@ -1,6 +1,17 @@
 body{
     text-align: center
 }
+.logo {
+    float: left;
+    margin: 5px;
+}
+nav {
+    display: inline;
+    margin: 0 auto;
+    background-color: black;
+    width: 100%;
+}
+
 #boxleft{
     background-color: rgb(59, 182, 75);
     margin-left: 37%;
