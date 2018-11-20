@@ -1,5 +1,16 @@
+body{
+    text-align: center
+}
 #boxleft{
-    background-color: white;
+    background-color: rgb(59, 182, 75);
     margin-left: 37%;
     margin-right: 37%;
+}
+#boxright{
+    background-color: rgb(194, 52, 52);
+    border-left: 5px solid black;
+    display: inline-block;
+    position: absolute; 
+    top: 0px;
+    height: 200px;
 }
