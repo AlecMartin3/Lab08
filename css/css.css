@@ -12,16 +12,39 @@ nav {
     width: 100%;
 }
 
+}
+.container{
+    border: 1px solid #ededed;
+    height: 125px; 
+    min-height: 100%;
+    background-color: white;
+    width: 25%;
+    margin-left: 25%;
+    
+}
 #boxleft{
-    background-color: rgb(59, 182, 75);
-    margin-left: 37%;
-    margin-right: 37%;
+    font-size: 20px;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 10%;
+    float: left;
+    text-align: left;
 }
 #boxright{
-    background-color: rgb(194, 52, 52);
-    border-left: 5px solid black;
-    display: inline-block;
-    position: absolute; 
-    top: 0px;
-    height: 200px;
+    text-align: center;
+    background-color: white;
+    border-left: 5px solid #ededed;
+    float: right;
+    margin-top: 4%;
+    padding-top: 7%;
+    width: 90px;
+    height: 75px;
+    padding-left: 10%;
+
 }
+.center{
+    
+    text-align: center; 
+    vertical-align: middle;
+}
+
