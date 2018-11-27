@@ -1,46 +1,55 @@
 <!DOCTYPE html>
-<html lang = "en">
-	<head>
-        <title>NHL - Scores</title>
-        <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="../css/css.css">
-    </head>
-    <body>
+<html lang="en">
 
-        <div class = "taskbar">
-            <img class = "logo" src="../images/NHL-Logo.png" alt="NHL Logo">
-            <h2 class = "title">NHL</h2>
-            <div class = "nav">
-                <button type="button" class = "scores">Scores</button>
-                <button type="button" class = "standings">Standings</button>
-            </div>         
+<head>
+    <title>NHL - Scores</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="taskbar">
+        <img class="logo" src="../images/NHL-Logo.png" alt="NHL Logo">
+        <h2 class="title">NHL</h2>
+        <div class="nav">
+            <button type="button" id="scores">Scores</button>
+            <button type="button" id="standings">Standings</button>
         </div>
-        
-    <div class="container">
-            <div id = "boxleft">
-                <table>
-                    <tr>
-                        <td>Team 1</td>
-                    </tr>
-                    <tr>
-                        <td>Team 2</td>
-                    </tr>
-                </table> 
-            </div>
-            <div id="boxright">
-                    <table>
-                        <tr>
-                            <td class="center">Quarter</td>
-                        </tr>
-                        <tr>
-                            <td class="center">Data</td>
-                        </tr>
-                    </table> 
-            </div>
     </div>
-        
+
+    <div class="container">
+        <div id="boxleft">
+            <table>
+                <tr>
+                    <td>Team 1</td>
+                </tr>
+                <tr>
+                    <td>Team 2</td>
+                </tr>
+            </table>
+        </div>
+        <div id="boxright">
+            <table>
+                <tr>
+                    <td class="center">Quarter</td>
+                </tr>
+                <tr>
+                    <td class="center">Data</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="leagueStandings">
+        <p>these are league standings</p>
+    </div>
 
 
+    <script src="../js/JS.js"></script>
 
-    </body>
+
+</body>
+
 </html>
