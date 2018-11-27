@@ -41,7 +41,8 @@ body{
     width: 25%;
     margin-left: 25%;
 }
-.standings {
+
+.standings{
     float: right;
     text-align: center; 
     width: 40%; 
@@ -49,6 +50,15 @@ body{
     font-weight: bold; 
     font-size: 16pt;
 }
+.container{
+    margin-top: 5%;
+    border: 1px solid #ededed;
+    height: 125px; 
+    min-height: 100%;
+    background-color: white;
+    width: 25%;
+    margin-left: 15%;
+}  
 #boxleft{
     font-size: 20px;
     background-color: white;
