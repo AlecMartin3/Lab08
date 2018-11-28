@@ -1,98 +1,141 @@
+
 @media screen and (max-width: 1980px) and (min-width: 801px) {
-body{
-    text-align: center
-}
+    body {
+        text-align: center
+    }
 
-.taskbar {
-    background-color: rgba(3, 51, 51, 0.8);
-}
+    .taskbar {
+        background-color: rgba(3, 51, 51, 0.8);
+    }
 
-.logo {
-    float: left;
-    margin: 5px;
-    width: 40px;
-    height: 40px;
-    z-index: 1;
-    padding-left: 5px;
-    position: absolute;
-    left: 0;
-}
-.title {
-    margin: 0;
-    padding: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-family: arial;
-}
-.nav {
-    display: block;
-    width: 100%;
-}
-#scores {
-    float: left;
-    text-align: center; 
-    width: 50%;
-    font-weight: bold; 
-    font-size: 16pt;
-    padding-bottom: 7.5px;
-    padding-top: 7.5px;
-    background-color: rgb(3, 51, 51, 0.8);
-}
+    .logo {
+        float: left;
+        margin: 5px;
+        width: 40px;
+        height: 40px;
+        z-index: 1;
+        padding-left: 5px;
+        position: absolute;
+        left: 0;
+    }
+
+    .title {
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        font-family: arial;
+    }
+
+    .nav {
+        display: block;
+        width: 100%;
+    }
+
+    #scores {
+        font-family: arial;
+        color: white;
+        float: left;
+        text-align: center;
+        width: 50%;
+        font-weight: bold;
+        font-size: 16pt;
+        padding-bottom: 7.5px;
+        padding-top: 7.5px;
+        background-color: rgb(3, 51, 51, 0.8);
+    }
 
 
-.container{
-    border: 1px solid #ededed;
-    height: 125px; 
-    min-height: 100%;
-    background-color: white;
-    width: 25%;
-    margin-left: 25%;
-}
+    .container {
+        border: 1px solid #ededed;
+        height: 125px;
+        min-height: 100%;
+        background-color: white;
+        width: 25%;
+        margin-left: 25%;
+    }
 
-#standings{
-    float: right;
-    text-align: center; 
-    width: 50%; 
-    font-weight: bold; 
-    font-size: 16pt;
-    padding-bottom: 7.5px;
-    padding-top: 7.5px;
-    background-color: rgb(3, 51, 51, 0.8);
-}
-.container{
-    margin-top: 5%;
-    border: 1px solid #ededed;
-    height: 125px; 
-    min-height: 100%;
-    background-color: white;
-    width: 25%;
-    margin-left: 15%;
-}  
-#boxleft{
-    font-size: 20px;
-    background-color: white;
-    margin-left: 10%;
-    margin-top: 10%;
-    float: left;
-    text-align: left;
-}
-#boxright{
-    text-align: center;
-    background-color: white;
-    border-left: 5px solid #ededed;
-    float: right;
-    margin-top: 4%;
-    padding-top: 7%;
-    width: 90px;
-    height: 75px;
-    padding-left: 10%;
+    #standings {
+        font-family: arial;
+        color: white;
+        float: right;
+        text-align: center;
+        width: 50%;
+        font-weight: bold;
+        font-size: 16pt;
+        padding-bottom: 7.5px;
+        padding-top: 7.5px;
+        background-color: rgb(3, 51, 51, 0.8);
+    }
 
-}
-.center{
-    
-    text-align: center; 
-    vertical-align: middle;
-}
+    .container {
+        margin-top: 5%;
+        border: 1px solid #ededed;
+        height: 125px;
+        min-height: 100%;
+        background-color: white;
+        width: 25%;
+        margin-left: 15%;
+    }
+
+    #boxleft {
+        font-size: 20px;
+        background-color: white;
+        margin-left: 10%;
+        margin-top: 10%;
+        float: left;
+        text-align: left;
+    }
+
+    #boxright {
+        text-align: center;
+        background-color: white;
+        border-left: 5px solid #ededed;
+        float: right;
+        margin-top: 4%;
+        padding-top: 7%;
+        width: 90px;
+        height: 75px;
+        padding-left: 10%;
+
+    }
+
+    .center {
+
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #leagueStandings {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #header {
+        width: 100%;
+    }
+
+    .teamName {
+        width: 45%;
+    }
+
+    .gp {
+        width: 30%;
+    }
+
+    .record {
+        width: 20%;
+    }
+
+    .points {
+        width: 35%;
+    }
+
+    th {
+        background-color: rgb(36, 32, 32);
+        color: white;
+    }
 
 }
