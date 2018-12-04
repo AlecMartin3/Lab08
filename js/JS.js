@@ -48,8 +48,8 @@ $(document).ready(function(){
                 var div = $("#teams");
                 let htmlStr = "<ol>";
                 for(let i = 0; i < data.length; i++) {
-                    htmlStr += "<li>" + data[i] + "</li>";
-                    console.log(htmlStr);
+                    htmlStr += "<li>" + data[i].Team + "</li>";
+                    console.log(123);
                 }
                 htmlStr += "</ol>";
                 div.html(htmlStr);

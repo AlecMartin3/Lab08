@@ -1,16 +1,14 @@
-let jsonData = {
-    "Standings":[
-        {"team": "10"},
-        {"Montreal": "9"},
-        {"Winnipeg": "8"},
-        {"Toronto": "7"},
-        {"Ottawa": "5"},
-        {"Vancouver": "4"},
-        {"Colorado": "3"},
-        {"Boston": "2"},
-        {"Columbus": "1"}
+let jsonData = [
+        {Team: "City"},
+        {Team: "1 Montreal"},
+        {Team: "2 Winnipeg"},
+        {Team: "3 Toronto"},
+        {Team: "4 Ottawa"}, 
+        {Team: "5 Vancouver"},
+        {Team: "6 Colorado"},
+        {Team: "7 Boston"},
+        {Team: "8 Columbus"}
     ]
-}
 
 let htmlData = "<ul><li>Edmonton: 5 <br> Montreal:0 </li><li>Vancouver:0 <br>Toronto: 3</li><li>Edmonton: 5 <br> Montreal:0 </li><li>Vancouver:0 <br>Toronto: 3</li><li>Edmonton: 5 <br> Montreal:0 </li><li>Vancouver:0 <br>Toronto: 3</li><li>Edmonton: 5 <br> Montreal:0 </li><li>Vancouver:0 <br>Toronto: 3</li><li>Edmonton: 5 <br> Montreal:0 </li><li>Vancouver:0 <br>Toronto: 3</li><li>Edmonton: 5 <br> Montreal:0 </li><li>Vancouver:0 <br>Toronto: 3</li></ul>"
 
