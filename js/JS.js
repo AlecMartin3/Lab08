@@ -45,10 +45,11 @@ $(document).ready(function(){
             data: { format: "json-list"},
             success: function(data) {
                 console.log("SUCCESS JSON:", data);
-                var div = $("#leagueStandings");
+                var div = $("#teams");
                 let htmlStr = "<ol>";
                 for(let i = 0; i < data.length; i++) {
                     htmlStr += "<li>" + data[i] + "</li>";
+                    console.log(htmlStr);
                 }
                 htmlStr += "</ol>";
                 div.html(htmlStr);

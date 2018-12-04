@@ -1,6 +1,6 @@
 let jsonData = {
     "Standings":[
-        {"Edmonton": "10"},
+        {"team": "10"},
         {"Montreal": "9"},
         {"Winnipeg": "8"},
         {"Toronto": "7"},
